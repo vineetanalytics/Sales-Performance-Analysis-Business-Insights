@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on analyzing Superstore sales data to identify sales trends, profitable categories, regional performance, customer segment behavior, and the impact of discounts on profitability.
+This project focuses on analyzing Superstore sales data to identify sales trends, profit performance, category insights, regional analysis, customer segment behavior, and the impact of discounts on profitability.
 
 The objective is to transform raw sales data into meaningful business insights using Python data analysis techniques.
 
@@ -11,10 +11,10 @@ The objective is to transform raw sales data into meaningful business insights u
 ## Objectives
 
 - Analyze sales and profit trends
-- Identify best-performing categories and regions
+- Identify top-performing categories and regions
 - Understand customer segment performance
-- Analyze discount impact on profitability
-- Generate business recommendations
+- Analyze the impact of discounts on profitability
+- Generate actionable business recommendations
 
 ---
 
@@ -31,7 +31,7 @@ The objective is to transform raw sales data into meaningful business insights u
 
 ## Dataset
 
-**Superstore Sales Dataset**
+**Dataset:** Superstore Sales Dataset
 
 The dataset contains information about:
 
@@ -45,15 +45,18 @@ The dataset contains information about:
 
 ---
 
-## Data Analysis Performed
+## Data Cleaning
 
-### Data Cleaning
+Performed data preparation steps:
 
 - Checked missing values
 - Removed duplicate records
 - Converted date columns
+- Prepared dataset for analysis
 
-### Exploratory Data Analysis
+---
+
+## Exploratory Data Analysis (EDA)
 
 Performed analysis on:
 
@@ -63,33 +66,86 @@ Performed analysis on:
 - Profit by Region
 - Sales by Customer Segment
 - Discount vs Profit Analysis
-- Top 10 Products
-- Top 10 Customers
+- Top 10 Products Analysis
+- Top 10 Customers Analysis
+- Correlation Analysis
 
 ---
 
-## Key Business Insights
+# Data Visualizations 📈
 
-- Total sales generated were approximately $2.29 million.
-- Total profit generated was approximately $286K.
+## Monthly Sales Trend
+
+![Monthly Sales Trend](Image/Monthly_Sales_Trend.png)
+
+## Monthly Profit Trend
+
+![Monthly Profit Trend](Image/Monthly_Profit_Trend.png)
+
+## Sales by Category
+
+![Sales by Category](Image/Sales_by_Category.png)
+
+## Profit by Region
+
+![Profit by Region](Image/Profit_by_Region.png)
+
+## Discount vs Profit Analysis
+
+![Discount vs Profit](Image/Discount_vs_Profit.png)
+
+---
+
+# Key Business Insights 💡
+
+- Total sales generated were approximately **2.29 million (dataset currency)**.
+- Total profit generated was approximately **286K (dataset currency)**.
 - Consumer segment contributed the highest revenue.
-- Discount levels impact profitability negatively.
-- Sales performance varies across months and regions.
+- Higher discounts can negatively impact profitability.
+- Sales performance varies across different months and regions.
 
 ---
 
-## Project Files
+# Project Structure
 
+```
 Sales_Performance_Analysis/
 
 ├── Dataset/
+│   ├── Sample - Superstore.csv
+│   └── Superstore_Cleaned.csv
+│
 ├── Notebook/
-├── Images/
+│   └── Sales_Performance_Analysis.ipynb
+│
+├── Image/
+│   ├── Monthly_Sales_Trend.png
+│   ├── Monthly_Profit_Trend.png
+│   ├── Sales_by_Category.png
+│   ├── Profit_by_Region.png
+│   └── Discount_vs_Profit.png
+│
 ├── Report/
-├── README.md
+│   └── Sales_Performance_Analysis_Report.pdf
+│
+└── README.md
+```
 
 ---
 
-## Conclusion
+# Conclusion
 
-This project demonstrates how Python can be used for data cleaning, exploratory analysis, visualization, and extracting actionable business insights from raw sales data.
+This project demonstrates how Python can be used for data cleaning, exploratory data analysis, visualization, and extracting actionable business insights from raw sales data.
+
+The analysis helps understand business performance and supports data-driven decision-making.
+
+---
+
+# Author
+
+**Vineet Shukla**
+
+Data Analytics Enthusiast
+
+**Skills:**  
+Python | SQL | Power BI | Excel | Data Analysis
